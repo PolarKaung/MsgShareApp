@@ -36,4 +36,13 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="396dp"
+        android:text="Share"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
