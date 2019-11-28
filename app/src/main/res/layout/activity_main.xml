@@ -45,4 +45,14 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="28dp" />
 
+    <Button
+        android:id="@+id/btnRecyclerViewDeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Recycler View Demo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShare" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
