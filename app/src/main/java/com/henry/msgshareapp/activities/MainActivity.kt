@@ -1,10 +1,11 @@
-package com.henry.msgshareapp
+package com.henry.msgshareapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.henry.msgshareapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         btnSendMsgToNextActivity.setOnClickListener {
             val message:String = etUserMessage.text.toString()
 
-            val intent = Intent(this,SecondActivity::class.java)
+            val intent = Intent(this, SecondActivity::class.java)
             intent.putExtra("user_message", message)
             startActivity(intent)
         }
