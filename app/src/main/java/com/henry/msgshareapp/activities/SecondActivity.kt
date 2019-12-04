@@ -17,5 +17,6 @@ class SecondActivity : AppCompatActivity() {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
 
         txvUserMessage.text = msg
+
     }
 }
