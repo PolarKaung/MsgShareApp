@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.henry.msgshareapp.models.Hobby
 import com.henry.msgshareapp.R
+import com.henry.msgshareapp.showToast
 import kotlinx.android.synthetic.main.layout_hobbies.view.*
 
 class HobbiesAdapter(val context: Context, private val hobbies: List<Hobby>) : RecyclerView.Adapter<HobbiesAdapter.MyViewHolder>() {
@@ -19,6 +20,7 @@ class HobbiesAdapter(val context: Context, private val hobbies: List<Hobby>) : R
 
         init {
             itemView.setOnClickListener {
+                context.showToast(currentHobby!!.title +  " Clicked !")
                 Toast.makeText(context, currentHobby!!.title +  " Clicked !",Toast.LENGTH_SHORT).show()
             }
 
