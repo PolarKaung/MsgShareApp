@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_show_toast">Montrer le pain grillé</string>
+    <string name="et_user_message">Entrez votre message</string>
+    <string name="button_was_clicked">Le bouton a été cliqué!</string>
+</resources>

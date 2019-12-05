@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_show_toast">トーストを表示</string>
+    <string name="et_user_message">メッセージを入力してください</string>
+    <string name="button_was_clicked">ボタンがクリックされました！</string>
+</resources>
